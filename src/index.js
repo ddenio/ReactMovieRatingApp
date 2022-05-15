@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import MovieContainer from './components/movie-container';
+import ReviewForm from './components/review-form';
+import MovieList from './components/movie-list';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <MovieContainer />
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input[type = "radio"]{
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+#comment-text {
+  color: black;
+}
+
+#movie-title {
+  font-size: 22px;
+}
+
+#root {
+  background: url("/public/images/movie.png")  ;
+}
+
+#movie-image {
+  background: url("/public/images/movie.png")  ;
 }
